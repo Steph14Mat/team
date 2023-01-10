@@ -1,0 +1,71 @@
+.border {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://www.w3schools.com/cssref/border.png) 30 round;
+}
+
+.borderimg2 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://www.w3schools.com/cssref/border.png) 30 stretch;
+}
+
+.image9 {
+    width: 200px;
+}
+
+.borderimg3 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image-source: url(https://www.w3schools.com/cssref/border.png);
+    border-image-repeat: round;
+    border-image-slice: 30;
+    border-image-width: 10px;
+}
+
+.borderimg4 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image-source: url(/img/border.png);
+    border-image-repeat: round;
+    border-image-slice: 30;
+    border-image-width: 40px;
+}
+
+.myDIV {
+    height: 300px;
+    width: 20%;
+    background-color: white;
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source: url(/img/border.png);
+    border-image-repeat: stretch;
+    border-image-slice: 30;
+    border-image-width: 10px;
+    border-image-outset: 20px;
+}
+
+.border {
+    background-color: #E7E9EB;
+}
+
+a {
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+}
